@@ -106,13 +106,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.powermock</groupId>
-            <artifactId>powermock-module-junit4</artifactId>
-            <version>${powermock.version}</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.36</version>
