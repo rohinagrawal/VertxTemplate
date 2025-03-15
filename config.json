@@ -10,11 +10,6 @@
       "worker": true,
       "instances": 1,
       "workerPoolSize": 20
-    },
-    "ActivityConsumerVerticle": {
-      "worker": true,
-      "instances": 1,
-      "workerPoolSize": 20
     }
   }
 }
