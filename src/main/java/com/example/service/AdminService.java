@@ -1,7 +1,7 @@
-package com.flauntik.service;
+package com.example.service;
 
-import com.flauntik.dto.request.LoggingRequest;
-import com.flauntik.dto.response.Response;
+import com.example.dto.request.LoggingRequest;
+import com.example.dto.response.Response;
 import com.google.inject.Singleton;
 import io.vertx.core.json.JsonObject;
 import lombok.extern.log4j.Log4j2;

@@ -1,4 +1,4 @@
-package com.flauntik.logger;
+package com.example.logger;
 
 import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpMethod;

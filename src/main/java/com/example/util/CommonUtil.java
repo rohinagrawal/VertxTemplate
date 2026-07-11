@@ -1,4 +1,4 @@
-package com.flauntik.util;
+package com.example.util;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;

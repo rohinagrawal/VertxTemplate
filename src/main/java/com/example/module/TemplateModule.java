@@ -1,6 +1,6 @@
-package com.flauntik.module;
+package com.example.module;
 
-import com.flauntik.config.TemplateConfig;
+import com.example.config.TemplateConfig;
 import com.google.common.base.Preconditions;
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
@@ -15,7 +15,7 @@ import lombok.extern.log4j.Log4j2;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinWorkerThread;
 
-import static com.flauntik.constant.LoggerConstant.IO_FORK_JOIN_POOL;
+import static com.example.constant.LoggerConstant.IO_FORK_JOIN_POOL;
 
 @Log4j2
 public class TemplateModule extends AbstractModule {

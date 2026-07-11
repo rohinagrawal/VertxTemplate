@@ -21,7 +21,7 @@
         <guava.version>31.1-jre</guava.version>
         <powermock.version>2.0.9</powermock.version>
 
-        <main.verticle>com.flauntik.verticle.MainVerticle</main.verticle>
+        <main.verticle>com.example.verticle.MainVerticle</main.verticle>
         <launcher.class>io.vertx.core.Launcher</launcher.class>
     </properties>
 

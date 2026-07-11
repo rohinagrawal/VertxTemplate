@@ -1,9 +1,9 @@
-package com.flauntik.verticle;
+package com.example.verticle;
 
-import com.flauntik.config.TemplateConfig;
-import com.flauntik.constant.URIConstant;
-import com.flauntik.dto.response.Response;
-import com.flauntik.logger.AccessLogger;
+import com.example.config.TemplateConfig;
+import com.example.constant.URIConstant;
+import com.example.dto.response.Response;
+import com.example.logger.AccessLogger;
 import com.google.inject.Inject;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.AsyncResult;

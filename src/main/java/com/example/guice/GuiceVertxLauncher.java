@@ -1,4 +1,4 @@
-package com.flauntik.guice;
+package com.example.guice;
 
 import io.vertx.core.Launcher;
 

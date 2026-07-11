@@ -1,4 +1,4 @@
-package com.flauntik.constant;
+package com.example.constant;
 
 public interface LoggerConstant {
 

@@ -1,8 +1,8 @@
-package com.flauntik.verticle;
+package com.example.verticle;
 
-import com.flauntik.config.TemplateConfig;
-import com.flauntik.dto.response.Response;
-import com.flauntik.service.AdminService;
+import com.example.config.TemplateConfig;
+import com.example.dto.response.Response;
+import com.example.service.AdminService;
 import com.google.common.base.Preconditions;
 import com.google.inject.Inject;
 import io.vertx.core.*;
@@ -14,8 +14,8 @@ import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.hc.core5.http.HttpStatus;
 
-import static com.flauntik.constant.URIConstant.SET_LOGGING_EVENT;
-import static com.flauntik.constant.URIConstant.TEST;
+import static com.example.constant.URIConstant.SET_LOGGING_EVENT;
+import static com.example.constant.URIConstant.TEST;
 import static org.apache.hc.core5.http.HttpStatus.SC_INTERNAL_SERVER_ERROR;
 
 @Log4j2

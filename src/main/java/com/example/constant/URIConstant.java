@@ -1,4 +1,4 @@
-package com.flauntik.constant;
+package com.example.constant;
 
 import com.google.common.collect.ImmutableSet;
 import io.vertx.core.http.HttpHeaders;

@@ -1,9 +1,9 @@
-package com.flauntik.verticle;
+package com.example.verticle;
 
-import com.flauntik.config.TemplateConfig;
-import com.flauntik.guice.GuiceVerticleFactory;
-import com.flauntik.guice.GuiceVertxDeploymentManager;
-import com.flauntik.module.TemplateModule;
+import com.example.config.TemplateConfig;
+import com.example.guice.GuiceVerticleFactory;
+import com.example.guice.GuiceVertxDeploymentManager;
+import com.example.module.TemplateModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import io.vertx.config.ConfigRetriever;
@@ -15,7 +15,7 @@ import io.vertx.core.Promise;
 import io.vertx.core.json.JsonObject;
 import lombok.extern.log4j.Log4j2;
 
-import static com.flauntik.constant.LoggerConstant.*;
+import static com.example.constant.LoggerConstant.*;
 
 @Log4j2
 public class MainVerticle extends AbstractVerticle {

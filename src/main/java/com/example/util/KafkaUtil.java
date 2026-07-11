@@ -1,7 +1,7 @@
-package com.flauntik.util;
+package com.example.util;
 
-import com.flauntik.config.KafkaConsumerConfig;
-import com.flauntik.config.KafkaProducerConfig;
+import com.example.config.KafkaConsumerConfig;
+import com.example.config.KafkaProducerConfig;
 import io.vertx.core.Vertx;
 import io.vertx.kafka.client.common.TopicPartition;
 import io.vertx.kafka.client.consumer.KafkaConsumer;
